@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: #47df0bce;
+    font-size: 18px;
+}
+
+div.header {
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+    padding-left: 0;
+    background-color: rgba(0, 153, 255, 0.692);   
+}
+
+img.header_image {
+    float: left;
+    margin-left: 665px;
+    width: 120px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+div.Name {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 791px;
+    vertical-align: middle;
+}
+
+div.body{
+    text-align: center;
+}
+
+.menu a{
+    margin-left: 25px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.links{
+    margin-right: 45px;
+}
+
+a{
+    color: rgba(202, 19, 19, 0.856);
+    font-weight: bold;
+}
+
+li{
+    list-style-type: none;
+}
+
+.mytable{
+    margin-left: 604px;
+    border: 2px solid black;
+    border-spacing: 1px;
+}
+
+.mytable th {
+    font-weight: bold;
+    padding: 3px;
+    border: 2px solid black;
+}
+
+.mytable td{
+    border: 2px solid black;
+    padding: 3px;
+}
+
+.odd{
+    background-color: red;
+}
+
+.even{
+    background-color: rgb(240, 85, 13);
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(0, 153, 255, 0.692);
+}

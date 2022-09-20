@@ -3,8 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Задание 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <header id = "header">
+        <div class = "header">
+            <img src = "https://assets.turbologo.ru/blog/ru/2018/10/18170754/wordpress.png" class = "header_image" alt = "Логотип сайта">
+            <div class = "Name">  Мой сайт</div>
+        </div>
+    </header>
+
+    <div class="body">
+
+    <nav class="menu">
+        <a href="#a">Список гиперссылок</a>
+        <a href="#b">Таблица</a>
+        <a href="#c">Форма</a>
+    </nav>
 
     <h1 id="a">Нумерованный список гиперссылок</h1>
 
@@ -18,9 +34,9 @@
         <li><a href="https://example.com?arg1=p1&arg2=p2">Ссылка с двумя параметрами в URL</a></li>
         <li>
             Список ссылок основной навигации сайта с подписями title
-            <ol>
+            <ol class="links">
                 <li><a href="#a" title="1">Нумерованный список гиперссылок</a></li>
-                <li><a href="#b" title="2">Форма</a></li>
+                <li><a href="#c" title="2">Форма</a></li>
             </ol>
         </li>
         <li><a>Ссылка без href</a></li>
@@ -43,7 +59,39 @@
         <li><a href="/files/file">Сокращенная ссылка на внутреннюю</a></li>
     </ol>
 
-    <h1 id="b">Форма</h1>
+    <h1 id="b">Таблица</h1>
+    <table class="mytable">
+        <thead>
+            <tr class="odd">
+                <th>Колонка 1</th>
+                <th>Колонка 2</th>
+                <th>Колонка 3</th>
+                <th>Колонка 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="even">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr class="odd">
+                <td colspan="2">5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr class="even">
+                <td colspan="3">8</td>
+                <td>9</td>
+            </tr>
+            <tr class="odd">
+                <td colspan="4">10</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1 id="c">Форма</h1>
 
     <form action="/" method="POST">
         <label>
@@ -60,10 +108,10 @@
         </label><br>
         <label>
             Пол:<br>
-            <input type="radio" name="radio-1" value="0-1">Мужской
+            <input type="radio" checked="checked" name="radio-1" value="0-1">Мужской
         </label>
         <label>
-            <input type="radio" checked="checked" name="radio-1" value="0-2">Женский
+            <input type="radio" name="radio-1" value="0-2">Женский
         </label><br>
         <label>
             Количество конечностей:<br>
@@ -96,5 +144,9 @@
         </label><br>
         <input type="submit" value="Отправить">
     </form>
+
+    <footer><b>(с) Шпонарский Богдан 2022</b></footer>
+    
+    </div>
 </body>
 </html>
