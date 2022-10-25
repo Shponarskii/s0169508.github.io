@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     background-color: #47df0bce;
     font-size: 18px;
 }
@@ -14,7 +14,7 @@ div.header {
 
 img.header_image {
     float: left;
-    margin-left: 500px;
+    margin-left: 555px;
     width: 120px;
     height: 60px;
     vertical-align: middle;
@@ -24,7 +24,7 @@ div.Name {
     font-size: 30px;
     font-weight: bold;
     padding: 10px;
-    margin-left: 640px;
+    margin-left: 700px;
     vertical-align: middle;
 }
 
